@@ -25,8 +25,8 @@ const App = () => {
           }}
         />
         <ReactDateRangePicker
-          // weekOff={true}
-          // holidays={['2024-02-20T21:38:27+05:30', '2024-02-23T18:38:27+05:30', '2024-02-28T18:38:27+05:30']}
+          weekOff={true}
+          holidays={['2024-02-20T21:38:27+05:30', '2024-02-23T18:38:27+05:30', '2024-02-28T18:38:27+05:30']}
           disablePast={false}
           disableFuture={true}
           selectedDate={selectedDate}
